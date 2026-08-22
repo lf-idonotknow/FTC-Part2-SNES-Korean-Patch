@@ -1,6 +1,6 @@
 # 패치 생성·검증 정보
 
-- 버전: `v0.9.0-beta.1`
+- 버전: `v0.9.1`
 - 생성일: `2026-08-16`
 - 형식: BPS delta
 - Floating IPS commit: `ff216a75df0987047a67d7923567dc4482ce07ac`
@@ -19,7 +19,7 @@
 
 ## 패치
 
-- 파일: `FTC-Part2-SNES-Korean-Patch-v0.9.0-beta.1.bps`
+- 파일: `FTC-Part2-SNES-Korean-Patch-v0.9.1.bps`
 - 크기: `179,619`바이트
 - SHA-256: `3c46e34042305bd076b78c25496947f8077ac1f65e6c870e58e84014ae8ba06c`
 
@@ -33,8 +33,8 @@
 검증 명령:
 
 ```sh
-flips --create --bps-delta source.smc target.smc FTC-Part2-SNES-Korean-Patch-v0.9.0-beta.1.bps
-flips --apply FTC-Part2-SNES-Korean-Patch-v0.9.0-beta.1.bps source.smc applied.smc
+flips --create --bps-delta source.smc target.smc FTC-Part2-SNES-Korean-Patch-v0.9.1.bps
+flips --apply FTC-Part2-SNES-Korean-Patch-v0.9.1.bps source.smc applied.smc
 cmp target.smc applied.smc
-shasum -a 256 source.smc target.smc FTC-Part2-SNES-Korean-Patch-v0.9.0-beta.1.bps applied.smc
+shasum -a 256 source.smc target.smc FTC-Part2-SNES-Korean-Patch-v0.9.1.bps applied.smc
 ```

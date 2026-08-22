@@ -1,4 +1,4 @@
-# 패미컴 탐정클럽 Part II 한국어 패치 v0.9.0-beta.1
+# 패미컴 탐정클럽 Part II 한국어 패치 v0.9.1
 
 슈퍼 패미컴판 **『패미컴 탐정클럽 Part II 뒤에 선 소녀』 일본판 V1.0 NP**를 위한 한국어 베타 BPS 패치입니다.
 
@@ -27,7 +27,7 @@
 
 1. 적법하게 준비한 지원 원본을 확인합니다.
 2. Floating IPS 같은 BPS 지원 도구에서 `Apply Patch`를 선택합니다.
-3. 릴리스의 `FTC-Part2-SNES-Korean-Patch-v0.9.0-beta.1.bps`를 선택합니다.
+3. 릴리스의 `FTC-Part2-SNES-Korean-Patch-v0.9.1.bps`를 선택합니다.
 4. 지원 원본을 선택하고 결과 ROM을 저장합니다.
 5. 결과 ROM의 SHA-256이 위 값과 같은지 확인합니다.
 

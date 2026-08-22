@@ -2,7 +2,7 @@
 
 ## 준비물
 
-- `FTC-Part2-SNES-Korean-Patch-v0.9.0-beta.1.bps`
+- `FTC-Part2-SNES-Korean-Patch-v0.9.1.bps`
 - BPS 형식을 지원하는 패치 도구
 - 적법하게 준비한 일본판 V1.0 NP headerless 원본 ROM
 
@@ -26,9 +26,9 @@ BPS 내부에는 원본·출력 크기와 CRC32가 기록되어 있습니다. �
 
 ```sh
 flips --apply \
-  FTC-Part2-SNES-Korean-Patch-v0.9.0-beta.1.bps \
+  FTC-Part2-SNES-Korean-Patch-v0.9.1.bps \
   'Famicom Tantei Club Part II (J) (V1.0) (NP).smc' \
-  'Famicom Tantei Club Part II (Korean) v0.9.0-beta.1.smc'
+  'Famicom Tantei Club Part II (Korean) v0.9.1.smc'
 ```
 
 `--ignore-checksum` 옵션은 사용하지 마십시오.
@@ -38,19 +38,19 @@ flips --apply \
 macOS:
 
 ```sh
-shasum -a 256 'Famicom Tantei Club Part II (Korean) v0.9.0-beta.1.smc'
+shasum -a 256 'Famicom Tantei Club Part II (Korean) v0.9.1.smc'
 ```
 
 Linux:
 
 ```sh
-sha256sum 'Famicom Tantei Club Part II (Korean) v0.9.0-beta.1.smc'
+sha256sum 'Famicom Tantei Club Part II (Korean) v0.9.1.smc'
 ```
 
 Windows PowerShell:
 
 ```powershell
-Get-FileHash '.\Famicom Tantei Club Part II (Korean) v0.9.0-beta.1.smc' -Algorithm SHA256
+Get-FileHash '.\Famicom Tantei Club Part II (Korean) v0.9.1.smc' -Algorithm SHA256
 ```
 
 정상 결과:
